@@ -25,10 +25,17 @@ const Service = ({ service }) => {
             alt="green iguana"
           />
           <CardContent>
-            <Typography variant="h5" component="div">
+            <Typography
+              variant="h5"
+              component="div"
+              sx={{ fontWeight: 500, mb: 3 }}
+            >
               {name}
             </Typography>
-            <Typography sx={{ mb: 1.5 }} color="text.secondary">
+            <Typography
+              sx={{ mb: 1.5, color: "#c6c6c6" }}
+              color="text.secondary"
+            >
               {description}
             </Typography>
           </CardContent>
