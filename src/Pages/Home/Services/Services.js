@@ -34,7 +34,7 @@ const Services = () => {
       <Container>
         <Typography
           variant="h5"
-          sx={{ textAlign: "center", color: "#14d1ca", my: 1 }}
+          sx={{ textAlign: "center", color: "#14d1ca", my: 1, fontWeight: 500 }}
         >
           Our Services
         </Typography>
