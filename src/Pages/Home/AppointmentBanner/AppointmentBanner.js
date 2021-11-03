@@ -3,10 +3,15 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import doctor from "../../../images/doctor.png";
 import { Button, Typography } from "@mui/material";
+import appointmentBg from "../../../images/appointment-bg.png";
 
 const appointmentBanner = {
   backgroundColor: "rgba(45, 58, 74, 0.9)",
   marginTop: 150,
+  background: `url(${appointmentBg})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  backgroundBlendMode: "darken",
 };
 
 const AppointmentBanner = () => {
