@@ -6,7 +6,7 @@ import { Button, Typography } from "@mui/material";
 import appointmentBg from "../../../images/appointment-bg.png";
 
 const appointmentBanner = {
-  backgroundColor: "rgba(45, 58, 74, 0.9)",
+  backgroundColor: "rgba(45, 58, 74, 1)",
   marginTop: 150,
   background: `url(${appointmentBg})`,
   backgroundRepeat: "no-repeat",
