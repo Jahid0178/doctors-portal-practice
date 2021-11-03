@@ -30,7 +30,17 @@ const DentalCare = () => {
               fixture is first placed, so that it is likely to osseointegrate,
               then a dental prosthetic is added
             </Typography>
-            <Button variant="contained">Learn More</Button>
+            <Button
+              variant="contained"
+              style={{
+                background:
+                  "linear-gradient(to right, rgba(24, 210, 176, 0.8), rgb(15, 207, 233, 0.8))",
+                width: "150px",
+                height: "40px",
+              }}
+            >
+              Learn More
+            </Button>
           </Box>
         </Grid>
       </Grid>
