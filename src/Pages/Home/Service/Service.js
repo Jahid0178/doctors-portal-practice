@@ -9,7 +9,7 @@ const Service = ({ service }) => {
   const { img, name, description } = service;
   return (
     <>
-      <Grid item xs={2} sm={4} md={4}>
+      <Grid item xs={12} sm={4} md={4}>
         <Card
           sx={{
             minWidth: 275,

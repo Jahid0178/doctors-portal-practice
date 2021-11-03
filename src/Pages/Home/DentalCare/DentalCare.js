@@ -14,10 +14,10 @@ const DentalCare = () => {
   return (
     <Container sx={{ flexGrow: 1, my: 4, py: 4 }}>
       <Grid container spacing={2}>
-        <Grid item xs={6} md={6} style={alignment}>
+        <Grid item xs={12} md={6} style={alignment}>
           <img style={{ width: 380 }} src={treatment} alt="" />
         </Grid>
-        <Grid item xs={6} md={6} style={alignment}>
+        <Grid item xs={12} md={6} style={alignment}>
           <Box>
             <Typography variant="h3" sx={{ fontWeight: 500, my: 3 }}>
               Exceptional Dental Care, on Your Terms
