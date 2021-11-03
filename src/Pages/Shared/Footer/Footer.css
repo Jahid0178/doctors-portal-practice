@@ -1,0 +1,16 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-link {
+  color: #17B2C8;
+  text-decoration: none;
+  padding: 8px 0;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.footer-link:hover {
+  color: #808080;
+}
