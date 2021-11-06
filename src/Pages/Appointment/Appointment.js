@@ -1,9 +1,14 @@
 import React from "react";
+import Navigation from "../Shared/Navigation/Navigation";
+import AppointmentHeader from "./AppointmentHeader/AppointmentHeader";
+import AvailableAppointment from "./AvailableAppointment/AvailableAppointment";
 
 const Appointment = () => {
   return (
     <div>
-      <h2>This is appointment</h2>
+      <Navigation></Navigation>
+      <AppointmentHeader></AppointmentHeader>
+      <AvailableAppointment></AvailableAppointment>
     </div>
   );
 };
